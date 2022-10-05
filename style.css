@@ -4,9 +4,11 @@ body {
 }
 /* Container */
 #container {
-  width: 720px;
+  width: 90%; /* 720px */
   margin: 0 auto;
   background: #f2f2f2;
+  min-width: 720px;
+  max-width: 1200px;
 }
 /* Marca */
 #marca {
@@ -17,22 +19,20 @@ body {
 }
 /* Conteudo */
 #conteudo {
-  width: 520px;
+  width: 74%; /* 520px conversao para % 520x100/700 (700 pq 520+180 é700) NAVEGACAO + CONTEUDO*/
   float: right;
 }
 /* Conteudo Principal*/
 #conteudo-principal {
-  width: 320px;
+  width: 63%; /* 320px */
   float: left;
   background: #fdf6f6;
-}
-#conteudo-principal {
   padding-left: 10px;
   padding-right: 10px;
 }
 /* Conteudo Secundário */
 #conteudo-secundario {
-  width: 180px;
+  width: 33%; /* 320px */
   float: right;
   background: #f5f7e9;
 }
@@ -47,7 +47,7 @@ body {
 }
 /* Navegaçao */
 #navegacao {
-  width: 180px;
+  width: 23%; /* 180px*/
   float: left;
   padding-top: 20px;
   padding-bottom: 20px;
